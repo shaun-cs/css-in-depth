@@ -1,0 +1,68 @@
+:root {
+    font-size: calc(0.5em + 1vw);
+    line-height: 1.2;
+}
+
+@media (min-width: 800px) {
+    :root {
+        font-size: 0.875em;
+    }
+}
+
+/*
+@media (min-width: 1200px) {
+    :root {
+        font-size: 1em;
+    }
+}
+*/
+.slogan {
+    font-size: 1.2em;
+    padding: 1em;
+    background-color: #ccc;
+}
+
+.box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: lightgray;
+}
+
+.box-small {
+    font-size: 0.5rem;
+}
+
+.box-large {
+    font-size: 0.75rem;
+}
+
+ul {
+    font-size: 0.8rem;
+}
+
+.panel {
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.panel > h2 {
+    font-size: 0.8em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.panel .large {
+    font-size: 1.2rem;
+}
+
+.square {
+    background-color: #369;
+    height: 10vmin;
+    width: 10vmin;
+}
+
+.about-us {
+    font-size: 2em;
+}
