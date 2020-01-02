@@ -1,10 +1,13 @@
 :root {
     box-sizing: border-box;
-    background-color: #eee;
-    font-family: Helvetica, Arial, sans-serif;
 }
 *, ::before, ::after {
     box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body * + * {
@@ -46,10 +49,6 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-}
-
-.button-link + .button-link {
-    margin-top: 1.5em;
 }
 
 .sponsor-link {
