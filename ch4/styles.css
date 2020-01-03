@@ -48,6 +48,20 @@ main {
     clear: left;
 }
 
+.media-image {
+    float: left;
+    margin-right: 1.5em;
+}
+
+.media-body {
+    margin-top: 0;
+    overflow: auto;
+}
+
+.media-body h4 {
+    margin-top: 0;
+}
+
 .clearfix::before, .clearfix::after {
     display: table;
     content: " ";
